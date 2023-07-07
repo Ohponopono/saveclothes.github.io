@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <title>SAVECLOTHES | CARRITO </title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>SAVECLOTHES</h1>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html">INICIO</a></li>
+              <li role="presentation"><a href="about.html">NOSOTROS</a></li>
+              <li role="presentation"><a href="gallery.html" >PRODUCTOS</a></li>
+              <li role="presentation"><a href="services.html"class="active">CARRITO</a></li>
+              <li role="presentation"><a href="contact.html">NOTICIAS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+  </header>
+  <!--/header-->
+
+
+  <section class="contenedor">
+    <!-- Contenedor de elementos -->
+    <div class="contenedor-items">
+        <div class="item">
+            <span class="titulo-item">Box Engasse</span>
+            <img src="img/carrito1.jpg" alt="" class="img-item">
+            <span class="precio-item">$15</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">English Horse</span>
+            <img src="img/carrito2.jpg" alt="" class="img-item">
+            <span class="precio-item">$25</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Knock Nap</span>
+            <img src="img/carrito3.jpg" alt="" class="img-item">
+            <span class="precio-item">$35</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">La Night</span>
+            <img src="img/carrito4.jpg" alt="" class="img-item">
+            <span class="precio-item">$18</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Silver All</span>
+            <img src="img/carrito5.jpg" alt="" class="img-item">
+            <span class="precio-item">$32</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Skin Glam</span>
+            <img src="img/carrito6.jpg" alt="" class="img-item">
+            <span class="precio-item">$18</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Midimix</span>
+            <img src="img/carrito7.jpg" alt="" class="img-item">
+            <span class="precio-item">$54</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Sir Blue</span>
+            <img src="img/carrito8.jpg" alt="" class="img-item">
+            <span class="precio-item">$32</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+       
+    </div>
+    <!-- Carrito de Compras -->
+    <div class="carrito" id="carrito">
+        <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items">
+            <!-- 
+            <div class="carrito-item">
+                <img src="img/boxengasse.png" width="80px" alt="">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">Box Engasse</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">$15.000,00</span>
+                </div>
+               <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+               </span>
+            </div>
+            <div class="carrito-item">
+                <img src="img/skinglam.png" width="80px" alt="">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">Skin Glam</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">$18.000,00</span>
+                </div>
+               <button class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+               </button>
+            </div>
+             -->
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                    $120.000,00
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+        </div>
+    </div>
+</section>
+
+  <footer>
+    <div class="container">
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <h4><b>NOSOTROS</b></h4>
+        <p>SAVECLOTHES es una compañia que ofrece prendas orgánicas o recicladas.</p>
+        <div class="contact-info">
+          <ul>
+            <li><i class="fa fa-home fa"></i> Llanos Zapata 121 Los Granados Manpuesto</li>
+            <li><i class="fa fa-phone fa"></i> +51 929 714 803</li>
+            <li><i class="fa fa-envelope fa"></i> saveclothesperu@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="text-center">
+          <h4><b>SIGUENOS EN INSTAGRAM</b></h4>
+          <ul class="sidebar-gallery">
+            <li><a href="https://www.instagram.com/save.clothes/"><img src="img/gallery1.png" /></a></li>
+            <li><a href="https://www.instagram.com/save.clothes/"><img src="img/gallery2.png" /></a></li>
+            <li><a href="https://www.instagram.com/save.clothes/"><img src="img/gallery3.png" /></a></li>
+            <li><a href="https://www.instagram.com/save.clothes/"><img src="img/gallery4.png" /></a></li>
+            <li><a href="https://www.instagram.com/save.clothes/"><img src="img/gallery5.png" /></a></li>
+            <li><a href="https://www.instagram.com/save.clothes/"><img src="img/gallery6.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <div class="">
+          <h4><b>Regístrate a SAVECLOTHES</b></h4>
+          <p>Subscríbete a SAVECLOTHES para recibir las utlimas actualizaciones via email. Puedes desuscribirte de este servicio cuando desees.</p>
+          <div class="btn-gamp">
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Ingresa el Email">
+          </div>
+          <div class="btn-gamp">
+            <a type="submit" class="btn btn-default">Subscríbete</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script>
+    wow = new WOW({}).init();
+  </script>
+
+</body>
+
+</html>
